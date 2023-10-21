@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" thread-count="1" parallel="tests" name="Failed suite [ecommerce-mobile-automation]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="ecommerce.testutils.Listeners"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="Ecommerce Login Page(failed)" verbose="0">
+    <classes>
+      <class name="runnerclasses.LoginTestRunner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="appiumSetup"/>
+          <include name="InvalidLogin"/>
+          <include name="Presetup"/>
+        </methods>
+      </class> <!-- runnerclasses.LoginTestRunner -->
+    </classes>
+  </test> <!-- Ecommerce Login Page(failed) -->
+</suite> <!-- Failed suite [ecommerce-mobile-automation] -->

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-01T20:07:32 IST" name="ecommerce-mobile-automation" finished-at="2023-10-01T20:08:51 IST" duration-ms="79154">
+    <groups>
+      <group name="smoke">
+        <method signature="EndtoEndTest.cartItems(java.util.HashMap)[pri:0, instance:runnerclasses.EndtoEndRunner@525575]" name="cartItems" class="ecommerce.EndtoEndTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-10-01T20:07:32 IST" name="Ecommerce Login Page" finished-at="2023-10-01T20:08:51 IST" duration-ms="79154">
+      <class name="runnerclasses.EndtoEndRunner">
+        <test-method is-config="true" signature="appiumSetup()[pri:0, instance:runnerclasses.EndtoEndRunner@525575]" started-at="2023-10-01T20:07:32 IST" name="appiumSetup" finished-at="2023-10-01T20:07:54 IST" duration-ms="22035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appiumSetup -->
+        <test-method is-config="true" signature="setActivity()[pri:0, instance:runnerclasses.EndtoEndRunner@525575]" started-at="2023-10-01T20:07:54 IST" name="setActivity" finished-at="2023-10-01T20:07:55 IST" duration-ms="885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setActivity -->
+        <test-method signature="cartItems(java.util.HashMap)[pri:0, instance:runnerclasses.EndtoEndRunner@525575]" started-at="2023-10-01T20:07:55 IST" name="cartItems" data-provider="getDataFromJson" finished-at="2023-10-01T20:08:23 IST" duration-ms="27915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Manjari, country=Argentina, gender=female}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartItems -->
+        <test-method is-config="true" signature="setActivity()[pri:0, instance:runnerclasses.EndtoEndRunner@525575]" started-at="2023-10-01T20:08:23 IST" name="setActivity" finished-at="2023-10-01T20:08:24 IST" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setActivity -->
+        <test-method signature="cartItems(java.util.HashMap)[pri:0, instance:runnerclasses.EndtoEndRunner@525575]" started-at="2023-10-01T20:08:24 IST" name="cartItems" data-provider="getDataFromJson" finished-at="2023-10-01T20:08:51 IST" duration-ms="26615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Raj, country=Argentina, gender=male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runnerclasses.EndtoEndRunner@525575]" started-at="2023-10-01T20:08:51 IST" name="tearDown" finished-at="2023-10-01T20:08:51 IST" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- runnerclasses.EndtoEndRunner -->
+    </test> <!-- Ecommerce Login Page -->
+  </suite> <!-- ecommerce-mobile-automation -->
+</testng-results>
