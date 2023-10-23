@@ -10,6 +10,8 @@ import org.testng.annotations.Test;
 public class LoginTest extends BasicSetup {
     //Testing how git works
     //Im in develop branch-checking how git works
+    //Learning merge conflicts and solve it
+    //Adding another line
 
 
     @BeforeMethod(alwaysRun = true)
