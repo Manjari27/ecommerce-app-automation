@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LoginTest extends BasicSetup {
+    //Testing how git works
 
 
     @BeforeMethod(alwaysRun = true)
